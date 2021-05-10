@@ -1,0 +1,5 @@
+keywords=['union','auto','static','continue','double','void','for','sizeof','unsigned','struct','enum','main','extern','short','const','float','case','printf','register','signed','return','switch','do','typedef','goto','char','long', 'if','scanf','break','int','while','default','volatile','else']
+delimiters=['[','\n','<','*','/',';',')','}','+',' ','(',']', '-','    ','>',',','=','{']
+operators=['<', '*', '+', '>=', '==', '<=', '-', '+=', '-=', '>', '/', '=']
+symbols = ['!', '@', '#', '$', '%', '&', '^', '*']
+numerals=['0' ,'1' ,'2' , '3', '4','5' , '6' , '7' ,'8', '9']
