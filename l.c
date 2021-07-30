@@ -1,4 +1,7 @@
-int main(){
+/**
+  * commented line.
+  */
+  int main(){
   float a;
   a = 1.1;
   int i, inc, j;

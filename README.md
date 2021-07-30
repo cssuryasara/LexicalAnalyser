@@ -17,21 +17,23 @@ Give the C file location as input
 
 ### INPUT
 ```C
-//Addition of two number
 /**
-  * This Program Add two numbers.
+  * commented line.
   */
-#include <stdio.h>
-#include <string.h>
-int main()
-{
-  /*
-   * This program add two integer numbers.
-   */
-  int a = 5, b = 10, c;
-  c = a+b*1c;
-  printf("Sum = %d\n", c);
-  return 0;
+  int main(){
+  float a;
+  a = 1.1;
+  int i, inc, j;
+  i = 0;
+  j=2;
+  inc = 2;
+  while (i < j){
+    i = i + inc;
+    a = a*i;
+  }
+  if (a > 10.0){
+    printf(a + i);
+  }
 }
 ```
 
@@ -44,99 +46,148 @@ int main()
 
 } is a Delimiter
 
-} is a Delimiter
+} is a Delimiter 
 
-\# is a Special symbol  
+int is a keyword 
+
+main is a keyword 
+
+( is a Delimiter  
+
+) is a Delimiter
+
+{ is a Delimiter  
+
+float is a keyword
+
+a is a identifiers
+
+; is a Delimiter  
+
+a is a identifiers
+
+= is a Operator 
+
+; is a Delimiter 
+
+int is a keyword
+
+i is a identifiers
+
+, is a Delimiter  
+
+inc is a identifiers
+
+, is a Delimiter
+
+j is a identifiers
+
+; is a Delimiter
+
+i is a identifiers
+
+= is a Operator
+
+; is a Delimiter
+
+j is a identifiers
+
+= is a Operator
+
+; is a Delimiter
+
+inc is a identifiers
+
+= is a Operator
+
+; is a Delimiter
+
+while is a keyword
+
+( is a Delimiter
+
+i is a identifiers
 
 < is a Operator
 
-\> is a Operator
+j is a identifiers
 
-\# is a Special symbol 
+) is a Delimiter
 
-\< is a Operator
+{ is a Delimiter
 
-\> is a Operator
-
-int is a keyword
-
-main is a keyword
-
-\( is a Delimiter
-
-\) is a Delimiter
-
-\{ is a Delimiter
-
-int is a keyword
-
-a is a identifiers
+i is a identifiers
 
 = is a Operator
 
-, is a Delimiter
-
-b is a identifiers
-
-= is a Operator
-
-, is a Delimiter
-
-c is a identifiers
-
-; is a Delimiter
-
-c is a identifiers
-
-= is a Operator
-
-a is a identifiers
+i is a identifiers
 
 \+ is a Operator
 
-\* is a Special symbol
-
-1c is a identifiers
+inc is a identifiers
 
 ; is a Delimiter
+
+a is a identifiers
+
+= is a Operator
+
+\* is a Special symbol
+
+ai is a identifiers
+
+; is a Delimiter
+
+} is a Delimiter
+
+if is a keyword
+
+( is a Delimiter
+
+a is a identifiers
+
+> is a Operator
+
+) is a Delimiter
+
+{ is a Delimiter
 
 printf is a keyword
 
 ( is a Delimiter
 
-, is a Delimiter
+a is a identifiers
 
-c is a identifiers
+\+ is a Operator
+
+i is a identifiers
 
 ) is a Delimiter
 
 ; is a Delimiter
 
-return is a keyword
-
-; is a Delimiter
+} is a Delimiter
 
 } is a Delimiter
 
-No of tokens =  46
+No of tokens =  68
 
 No. of keywords =  5
-['int', 'main', 'return', 'printf', '#include']
 
-No. of libararys =  2
-['<stdio.h>', '<string.h>']
+No. of keywords =  6
+['main', 'int', 'if', 'printf', 'while', 'float']
 
-No. of special symbols =  3
-['#', '#', '*']
+No. of special symbols =  1
+['*']
 
-No. of operators =  8
-['<', '>', '<', '>', '=', '=', '=', '+']
+No. of operators =  10
+['=', '=', '=', '=', '<', '=', '+', '=', '>', '+']
 
-No. of identifiers =  4
-['c', 'b', 'b1c', 'a']
+No. of identifiers =  5
+['i', 'a', 'j', 'inc', 'ai']
 
-No. of constants =  4
-['5', '10', 'Sum = %d\\n', '0']
+No. of constants =  5
+['1.1', '0', '2', '2', '10.0']
 
-No. of delimiters =  15
-['}', '}', '(', ')', '{', ',', ',', ';', ';', '(', ',', ')', ';', ';', '}']
+No. of delimiters =  27
+['}', '}', '(', ')', '{', ';', ';', ',', ',', ';', ';', ';', ';', '(', ')', '{', ';', ';', '}', '(', ')', '{', '(', ')', ';', '}', '}'] 
